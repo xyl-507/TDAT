@@ -22,7 +22,7 @@ target-distractor awareness effectively widens the gap between target and backgr
 on multiple UAV benchmarks show that the proposed tracker achieves outstanding performance with a speed of 
 34.5 frames/s. The code and models are available at https://github.com/xyl-507/TDAT.
 
-[**[Models and Raw Results (GitHub) ]**](https://github.com/xyl-507/CRM/releases/tag/downloads)
+[**[Models and Raw Results (GitHub) ]**](https://github.com/xyl-507/TDAT/releases/tag/models%26results)
 
 [**[Models and Raw Results (Baidu) ]**](https://pan.baidu.com/s/1ZpCMDlVvO9wpx7E9CH6UgA?pwd=1234)
 
