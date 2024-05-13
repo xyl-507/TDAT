@@ -108,5 +108,5 @@ The results might be slightly different with [PySOT](https://github.com/STVIR/py
   
 
 ### Acknowledgement
-The code based on the [PyTracking](https://github.com/visionml/pytracking) , [FasterVi](https://arxiv.org/abs/2306.06189).
+The code based on the [PyTracking](https://github.com/visionml/pytracking) , [FasterViT](https://arxiv.org/abs/2306.06189).
 We would like to express our sincere thanks to the contributors.
