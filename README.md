@@ -1,26 +1,28 @@
-# TDAT
+# [TITS2025] Target-Distractor Aware UAV Tracking via Global Agent
 
-This project hosts the code for implementing the TDAT algorithm for visual tracking, as presented in our paper:
+This is an official pytorch implementation of the 2025 *IEEE Transactions on Intelligent Transportation Systems* paper:
 
 ```
 Global Agent-based Target-Distractor Aware for UAV Object Tracking 
+(DOI: https://doi.org/10.1109/TITS.2025.3581391)
 ```
 
 ## Tracker
 #### TDAT ####
 
-Aerial tracking has received increasing attention for its extensive practical applications. 
-However, the aerial perspective introduces excessive similar targets and complex backgrounds,
-posing a huge challenge to aerial trackers. Despite great progress, existing target-aware or distractor-aware trackers 
-fail to capture target and background information in a balanced manner, resulting in limited improvement. 
-In this paper, we propose a global agent-based Target-Distractor Aware Tracker, TDAT, to enhance the discrimination of 
-the target. TDAT consists of two effective modules: a global agent generator and an interactor. First, the generator 
-summarizes the target and background regions to obtain the corresponding agent, and then global self-attention mines 
-the global relationships among the agents. Next, the interactor extracts target-oriented features via the interaction 
-of global dependencies and local region to enhance the understanding of the target. The TDAT embedded with 
-target-distractor awareness effectively widens the gap between target and background distracters. Experimental results 
-on multiple UAV benchmarks show that the proposed tracker achieves outstanding performance with a speed of 
-34.5 frames/s. The code and models are available at https://github.com/xyl-507/TDAT.
+Object tracking is a basic task of the unmanned aerial vehicle (UAV)-based intelligent visual perception system. 
+The presence of similar targets and complex backgrounds in the airborne perspective poses significant challenges to
+aerial trackers. However, existing target-aware or distractor-aware trackers fail to capture discriminative cues
+from both target and background information in a balanced manner, resulting in limited improvement. 
+To address these issues, this paper proposes a global agent-based Target-Distractor Aware Tracker (TDAT) to enhance 
+the discrimination of the target. TDAT comprises two effective modules: a global agent generator and an interactor. 
+First, the generator aggregates the target and background regions into representative agents and then performs 
+self-attention on these agents to explicitly model the global relationships between the target and backgrounds. 
+Next, the interactor realizes the bidirectional information interaction between global agents and local regions 
+via self-attention. Based on the global dependencies encoded in global agents, the interactor extracts target-oriented
+features and enhances the understanding of the target. TDAT embedded with target-distractor awareness effectively
+widens the gap between target and background distractors. Experimental results on multiple UAV benchmarks show that 
+TDAT achieves outstanding performance with a speed of 34.5 frames/s. The code is available at https://github.com/xyl-507/TDAT.
 
 [**[Models and Raw Results (GitHub) ]**](https://github.com/xyl-507/TDAT/releases/tag/models%26results)
 
