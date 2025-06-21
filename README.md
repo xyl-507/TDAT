@@ -24,9 +24,14 @@ features and enhances the understanding of the target. TDAT embedded with target
 widens the gap between target and background distractors. Experimental results on multiple UAV benchmarks show that 
 TDAT achieves outstanding performance with a speed of 34.5 frames/s. The code is available at https://github.com/xyl-507/TDAT.
 
-[**[Models and Raw Results (GitHub) ]**](https://github.com/xyl-507/TDAT/releases/tag/models%26results)
+![image](https://github.com/xyl-507/TDAT/blob/main/figs/framework.jpg)
 
-[**[Models and Raw Results (Baidu) ]**](https://pan.baidu.com/s/1ZpCMDlVvO9wpx7E9CH6UgA?pwd=1234)
+The paper can be downloaded from [IEEE Xplore](https://doi.org/10.1109/TITS.2025.3581391)
+
+Models and Raw Results can be downloaded from [GitHub](https://github.com/xyl-507/TDAT/releases/tag/models%26results)
+
+Models and Raw Results can be downloaded from [Baidu](https://pan.baidu.com/s/1ZpCMDlVvO9wpx7E9CH6UgA?pwd=1234)
+
 
 ### UAV Tracking
 
