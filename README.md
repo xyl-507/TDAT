@@ -26,7 +26,7 @@ TDAT achieves outstanding performance with a speed of 34.5 frames/s. The code is
 
 ![image](https://github.com/xyl-507/TDAT/blob/main/figs/framework.jpg)
 
-The paper can be downloaded from [IEEE Xplore](https://doi.org/10.1109/TITS.2025.3581391)
+The paper can be downloaded from [IEEE Xplore](https://ieeexplore.ieee.org/document/11054299)
 
 Models and Raw Results can be downloaded from [GitHub](https://github.com/xyl-507/TDAT/releases/tag/models%26results)
 
